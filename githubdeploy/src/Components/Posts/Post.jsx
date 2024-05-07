@@ -12,11 +12,13 @@ const Post = () => {
 
   const handlePriceChange = (event) => {
     const inputPrice = event.target.value;
-    // Check if price is multiple of 5
-    if (inputPrice % 5 === 0) {
+  
+    // Check if the input is empty or a multiple of 5
+    if (inputPrice === '' || (parseInt(inputPrice) % 5 === 0)) {
       setPrice(inputPrice);
     }
   };
+  
 
   return (
     <div>
