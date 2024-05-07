@@ -32,7 +32,7 @@ const Post = () => {
       
       <label>Enter Price:</label>
       <input 
-        type="number" 
+        type="tel" 
         value={price} 
         onChange={handlePriceChange} 
         placeholder="Enter price (multiple of 5)" 
