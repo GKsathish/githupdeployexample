@@ -3,6 +3,7 @@ import Post1 from "./Post1";
 import Post2 from "./Post2";
 import Post3 from "./Post3";
 import Post4 from "./Post4";
+import Post from "./Post";
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
 
@@ -34,6 +35,9 @@ const Posts = () => {
 				</Col>
 				<Col md={8} className="mb-4">
 					<Post4 />
+				</Col>
+				<Col md={8} className="mb-4">
+					<Post />
 				</Col>
 			</Row>
 		</Container>
